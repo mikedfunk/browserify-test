@@ -12,6 +12,7 @@ An example of using [browserify](http://browserify.org) and browserify-shim to m
 9. add a gulpfile.js or just use [this one](https://github.com/mikedfunk/browserify-test/blob/master/gulpfile.js)
 10. `gulp` to create the first build
 11. include the compiled js file in your html with a script tag
+12. If your compiled js is in `assets/cache`, add it to `.gitignore`
 
 ## Installation
 * `npm install` to get gulp, browserify, bower, etc.
